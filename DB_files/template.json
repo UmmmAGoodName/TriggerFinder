@@ -1,0 +1,45 @@
+{
+    "authorinfo": {
+        "name": "TriggerFinder",
+        "version": "1.0.0",
+        "author": "Jane Doe"
+    },
+    "triggers":{
+        "truckerfuel:success": {
+            "risk": 0,
+            "type": "TriggerServerEvent",
+            "category": "Money",
+            "description": "Trigger for successful fuel delivery in Trucker Fuel job.",
+            "params" : {
+                "1": "number"
+            },
+            "set_values":{
+            }
+        },
+        "carwash:checkmoney":{
+            "risk": 0,
+            "type": "TriggerServerEvent",
+            "category": "Money",
+            "description": "Trigger to check if the player has enough money for a car wash.",
+            "params" : {
+                "1": "set_number"
+            },
+            "set_values":{
+                "1": 10000
+            }
+        },
+        "trucker:success": {
+            "risk": 0,
+            "type": "TriggerServerEvent",
+            "category": "Money",
+            "description": "Trigger for successful delivery in Trucker job.",
+            "params" : {
+                "1": "set_number"
+            },
+            "set_values": {
+                "1": 6999
+            }
+
+        }
+    }
+}
