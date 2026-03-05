@@ -1,2 +1,4 @@
 Referancer/
 outputs/
+__pycache__/
+*.pyc
